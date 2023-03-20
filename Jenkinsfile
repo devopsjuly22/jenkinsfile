@@ -13,7 +13,7 @@ pipeline {
 			}
 			stage ('build-step') {
 				steps {
-					sh "mvn -f /home/ec2-user/workspace/my-pipeline1/devops/pom.xml clean install"
+					sh "mvn -f /home/ec2-user/workspace/my_pipeline1/devops/pom.xml clean install"
 				}
 			}
 			stage ('deploy') {
