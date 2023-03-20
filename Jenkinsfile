@@ -1,5 +1,5 @@
 pipeline {
-	agent { node { label 'slave1' } }
+	agent { node { label 'Built-In Node' } }
 		stages {
 			stage ('CleanWorkSpace') {
 				steps {
